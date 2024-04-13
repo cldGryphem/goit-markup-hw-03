@@ -63,7 +63,7 @@ img {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    margin-right: auto;
+    margin-right: 76px;
 }
 
 .logo {
@@ -148,8 +148,7 @@ img {
 
 .hero {
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
 }
 
 .section {
@@ -205,6 +204,10 @@ img {
 
 
 .section-first {
+}
+
+.visually-hidden{
+    
 }
 
 .section-block {
