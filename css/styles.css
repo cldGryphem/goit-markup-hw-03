@@ -63,7 +63,6 @@ img {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    margin-right: 76px;
 }
 
 .logo {
@@ -74,8 +73,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-    /* width: 115px;
-    margin-right: 76px; */
+    margin-right: 76px;
 }
 
 .logo-accent {
@@ -148,12 +146,10 @@ img {
 
 .hero {
     background-color: #2e2f42;
-    padding: 188px 0;
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -207,7 +203,7 @@ img {
 }
 
 .visually-hidden{
-    
+    clip-path: inset(100%);
 }
 
 .section-block {
